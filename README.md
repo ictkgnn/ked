@@ -20,11 +20,17 @@ Source installation is required
 Building using cmake：
 
 cd swipl-devel
+
 mkdir build
+
 cd build
+
 cmake -DCMAKE_INSTALL_PREFIX=$HOME -G Ninja ..   Change to  cmake -DCMAKE_INSTALL_PREFIX=$HOME -GNinja ..
+
 ninja
+
 ctest -j 4    Change to   ctest -j4
+
 ninja install
 
 ### Install python3

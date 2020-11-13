@@ -25,11 +25,19 @@ mkdir build
 
 cd build
 
-cmake -DCMAKE_INSTALL_PREFIX=$HOME -G Ninja ..   Change to  cmake -DCMAKE_INSTALL_PREFIX=$HOME -GNinja ..
+cmake -DCMAKE_INSTALL_PREFIX=$HOME -G Ninja ..   
+
+Change to：
+
+cmake -DCMAKE_INSTALL_PREFIX=$HOME -GNinja ..
 
 ninja
 
-ctest -j 4    Change to   ctest -j4
+ctest -j 4
+
+Change to：
+
+ctest -j4
 
 ninja install
 

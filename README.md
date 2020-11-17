@@ -15,7 +15,7 @@ Reasoning by Abductive Learning_ in NeurIPS 2019.
 ### Install Swipl
 [http://www.swi-prolog.org/build/unix.html](http://www.swi-prolog.org/build/unix.html)
 
-#### Source installation is required
+#### linux:Source installation is required
 
 #### Building using cmake：
 
